@@ -9,7 +9,11 @@
 - min lenght 
 - Card Generators (create a good one!)
 - Section or Div?
-- Where do I learn CSS?
+- Where do I learn CSS? Udacity has a good starting point for responsiveness
+- How do they create that small icon card to show in the input for card number
+- Why do they not use the word function?
+- JS events https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events (onclick vs addeventlistener)
+- Why do they not use this keyword, why is not allowed in laboratoria?
 
 ## TO DO
 - Center some elements
@@ -24,4 +28,7 @@
 - TODO comments only work in programming languages (JS) and not for HTML (markup language)
 - Chrome browser will recognize a credit card input if you use the the attribute name="cardNumber" or placeholder="Card Number*"
 - Input pattern attribute only suggest when you over an input and wrote another thing to write the requested format.
+- HTML5 discourages the use of type=text/javascript https://stackoverflow.com/questions/51418964/script-type-text-javascript-vs-script-type-module
+- onclick is a bad practice https://www.simonewebdesign.it/onclick-vs-addeventlistener/
+- 
   

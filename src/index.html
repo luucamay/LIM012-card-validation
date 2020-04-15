@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-with, initial-scale=1">
-  <title> Pacha Conf</title>
+  <title>Pacha Conf</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -13,11 +13,11 @@
   <hr style="clear: both;">
   <main>
     <!--- Home View -->
-    <section id="mainView" class="">
+    <section id="homeView" class="">
       <h1>PACHA CONF</h1>
       <h2>LAST VIRTUAL CONFERENCE ON EARTH?</h2>
       <h2>April 23rd 2020</h2>
-      <button>Buy Tickets</button></br>
+      <button id="buyTickets">Buy Tickets</button></br>
       <button>Schedule ❤️ </button></br>
       <button>Sponsor PachaConf</button>
       <p>Spread the world</p>
@@ -126,10 +126,10 @@
       <input type="checkbox" id="agreeTermsConditions">
       <label for="agreeTermsConditions"> I agree to terms and conditions</label></br>
       <p id="total" style="display: inline;">$ 600.00</p>
-      <button id="checkbox">Checkout</button>
+      <button id="checkout">Checkout</button>
     </section>
     <!-- Checkout View -->
-    <section class="hide">
+    <section id="checkoutView" class="hide">
       <form action="/place-order" method="post">
         <!-- personal info card-->
         <section id="personalInfoCard" class="boxed">
@@ -163,12 +163,12 @@
         </section>
         <div>
           <p id="total" style="display: inline;">$ 600</p>
-          <button>Place Order</button>
+          <button id="placeOrder">Place Order</button>
         </div>
       </form>
     </section>
-    <!-- Thank you view -->
-    <section class="hide">
+    <!-- Thanks View -->
+    <section id="thanksView" class="hide">
       <div class="boxed">
         <svg class="checkmark" viewBox="0 0 52 52">
           <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none" />
