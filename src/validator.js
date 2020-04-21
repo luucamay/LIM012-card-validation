@@ -8,10 +8,10 @@ const validator = {
       if (i % 2 === 0) {
         currDigit *= 2;
         if (currDigit > 9) {
-          currDigit -= 9
+          currDigit -= 9;
         }
       }
-      digitsSum += currDigit
+      digitsSum += currDigit;
     }
     if (digitsSum % 10 === 0)
       return true;
@@ -19,7 +19,9 @@ const validator = {
   },
 
   maskify: (creditCardNumber) => {
-
+    if (creditCardNumber.length < 4)
+      return creditCardNumber
+    return '🐱'.repeat(n-4) + creditCardNumber.slice(-4);
   }
 };
 

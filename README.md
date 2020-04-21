@@ -31,6 +31,7 @@
 - Input pattern attribute only suggest when you over an input and wrote another thing to write the requested format.
 - HTML5 discourages the use of type=text/javascript https://stackoverflow.com/questions/51418964/script-type-text-javascript-vs-script-type-module
 - onclick is a bad practice https://www.simonewebdesign.it/onclick-vs-addeventlistener/
+- repeat and slice methods for strings!
 
 ## Test with credit cards generated
 bestccgen.com/bulkcardgenerator-result.php?network=visa&noc=20
