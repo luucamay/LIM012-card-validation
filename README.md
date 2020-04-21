@@ -14,6 +14,7 @@
 - Why do they not use the word function?
 - JS events https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events (onclick vs addeventlistener)
 - Why do they not use this keyword, why is not allowed in laboratoria?
+- BIND concept in JS https://www.freecodecamp.org/news/when-and-why-you-should-use-es6-arrow-functions-and-when-you-shouldnt-3d851d7f0b26/
 
 ## TO DO
 - Center some elements
@@ -30,5 +31,6 @@
 - Input pattern attribute only suggest when you over an input and wrote another thing to write the requested format.
 - HTML5 discourages the use of type=text/javascript https://stackoverflow.com/questions/51418964/script-type-text-javascript-vs-script-type-module
 - onclick is a bad practice https://www.simonewebdesign.it/onclick-vs-addeventlistener/
-- 
-  
+
+## Test with credit cards generated
+bestccgen.com/bulkcardgenerator-result.php?network=visa&noc=20

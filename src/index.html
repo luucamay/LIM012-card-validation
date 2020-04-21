@@ -72,61 +72,63 @@
     </section>
     <!--- Buy Ticket View -->
     <section id="buyView" class="hide">
-      <a href="#">Enter Promo Code</a>
-      <div class="ticket-card">
-        <div style="float: left;">
-          <h3>General Ticket</h3>
-          <p>$ 500.00</p>
+      <form>
+        <a href="#">Enter Promo Code</a>
+        <div class="ticket-card">
+          <div style="float: left;">
+            <h3>General Ticket</h3>
+            <p>$ 500.00</p>
+          </div>
+          <div>
+            <select id="ticket-quantity-1">
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+          <div style="clear: both;">
+            <span>Access to all virtual conferences</span>
+          </div>
+          <hr>
         </div>
-        <div>
-          <select id="ticket-quantity-1">
-            <option value="0">0</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-            <option value="10">10</option>
-          </select>
+        <div class="ticket-card" style="clear: both;">
+          <div style="float: left;">
+            <h3>After Online Party</h3>
+            <p>$ 100.00</p>
+          </div>
+          <div>
+            <select id="ticket-quantity-2">
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+          <div style="clear: both;">
+            <span>Connect to different virtual rooms to Party</span>
+          </div>
+          <hr>
         </div>
-        <div style="clear: both;">
-          <span>Access to all virtual conferences</span>
-        </div>
-        <hr>
-      </div>
-      <div class="ticket-card" style="clear: both;">
-        <div style="float: left;">
-          <h3>After Online Party</h3>
-          <p>$ 100.00</p>
-        </div>
-        <div>
-          <select id="ticket-quantity-2">
-            <option value="0">0</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-            <option value="10">10</option>
-          </select>
-        </div>
-        <div style="clear: both;">
-          <span>Connect to different virtual rooms to Party</span>
-        </div>
-        <hr>
-      </div>
-      <input type="checkbox" id="agreeTermsConditions">
-      <label for="agreeTermsConditions"> I agree to terms and conditions</label></br>
-      <p id="total" style="display: inline;">$ 600.00</p>
-      <button id="checkout">Checkout</button>
+        <input type="checkbox" id="agreeTermsConditions" required>
+        <label for="agreeTermsConditions"> I agree to terms and conditions</label></br>
+        <p id="totalBuy" style="display: inline;">$ 0.00</p>
+        <button id="checkout">Checkout</button>
+      </form>
     </section>
     <!-- Checkout View -->
     <section id="checkoutView" class="hide">
@@ -162,7 +164,7 @@
           </ul>
         </section>
         <div>
-          <p id="total" style="display: inline;">$ 600</p>
+          <p id="totalCheckout" style="display: inline;"><p>
           <button id="placeOrder">Place Order</button>
         </div>
       </form>
